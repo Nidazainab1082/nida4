@@ -1,0 +1,46 @@
+.English {
+    height: 110px;
+    width: 2000px;
+    background-color: rgb(230, 238, 238);
+    color: rgb(34, 2, 2);
+    padding-bottom: 20px;
+    
+}
+body {
+    background-color: rgb(41, 4, 4);
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 20px;
+}
+.text {
+    text-align: center;
+    color: rgb(241, 244, 247);
+    font-size: 40px;
+    padding-top: 10px;
+}
+ .picture {
+     width: 50%;
+     height: 150px;
+     display: flex;
+    gap: 5px;
+}
+.picture img {
+    display: flex;
+    width: 15%;
+    height: 200%;
+    object-fit: cover;
+
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-out 1s;
+}
+ .picture img:hover {
+    width: 100%;
+    scale: 1.1;
+ }
+    
+
